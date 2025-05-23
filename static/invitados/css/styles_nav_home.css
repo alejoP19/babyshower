@@ -1,0 +1,914 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+body{
+      position:relative;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      min-height: 100vh;
+      max-height: fit-content;
+   
+      background-color: #fffffffa;
+ 
+
+     
+     
+}
+
+
+ div,ul,nav,top_frame,footer,a,li,label,body,h1,p,img{
+      margin: 0;
+      padding: 0;
+      box-sizing: border;
+
+      }
+
+/*---------->TOP FRAME SECTION <-----------*/
+
+.top_frame{
+   
+      display: flex;
+      flex-direction: row;
+      justify-content:space-around;
+      width: 100%;
+      height: 10dvh;
+      align-items: center;
+      max-width: 100%;
+    
+     
+      background-color: rgba(255, 201, 232, 0.842);
+        
+    
+  }
+  
+.top_frame img{
+     position: absolute;
+    margin: auto;
+    width:60%;
+    margin-top: 2%;
+         
+        }
+
+.top_frame h3{
+ position: absolute;
+ margin: auto;
+ width:80%;
+ }
+
+ .open_menu_button{
+      position: absolute;
+       color: rgb(255, 255, 255);
+      text-shadow: -1px 1px 2px #440375;
+      font-weight: bold; 
+      font-size: 1.3rem;
+      font-weight: lighter;
+      align-items: center;
+      margin-left: 6%;
+      left: 0;
+      width:10%;
+
+}
+
+.logo-top_frame{
+      position: absolute;
+      display: flex;
+      flex-direction: row;
+      top: 0;
+      right:0;
+      max-width: 145px;
+      z-index: 20;   
+}
+
+/* <---- TOP FRAME SECTION  ENDS ----->*/
+/*__________________________________*/
+
+/* <---- SIDE NAV  BAR  ----->*/
+
+.nav{
+           
+      display: flex;
+      flex-direction: row;
+      justify-content: center; 
+      align-content: center;
+      text-align: center;
+      font-family: "DynaPuff", system-ui;
+       width: 100%;
+     padding: 20px 0;
+
+                 
+}
+
+
+
+.nav-item{
+  
+list-style: none;       
+}
+
+.nav-item a{
+   color: #000000;
+   font-size: clamp(1.2rem, 2.2vw, 2rem);
+   font-weight: lighter;
+       
+}
+
+/* <---- SIDE NAV  BAR   ENDS ----->*/
+/*__________________________________*/
+
+
+
+/* --- HEADER SECTION --- */
+.header{
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+border-bottom: 1px solid #e4a6ca94;
+background-image: url(../../invitados/img/portada2.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center; 
+height: 100dvh;
+width: 100;
+padding: 0;
+
+}
+
+ .header__title{
+  position: absolute;
+  display: flex;
+  align-self: center;
+  align-self: center;
+  text-align: center;
+  margin-left: 2%;
+  margin-top:4%;
+  top : 0;
+
+    
+}
+ .header__title__place{
+  
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+  margin-left: 3%;
+  margin-top: 15%;
+
+      
+    
+    
+    
+}
+ .header__title__countdown{
+      position:absolute;
+      display: flex;
+      justify-content:space-around;
+      flex-direction: column;
+      text-align: center;
+      align-self: center;
+      bottom: 0;
+      margin-bottom: 15%;
+      z-index: 10;   
+}
+  .header__title h4, .header__title__place h4, .header__title__countdown h4{
+    color: rgb(255, 252, 254);
+    font-weight: lighter;
+    font-family: "DynaPuff", system-ui;
+    font-size: clamp(1rem, 2.2vw, 1.4rem);
+    filter: drop-shadow(0px 0px 1px #ff289e)
+    drop-shadow(0px 0px 1px #f54ad0e1);
+    text-shadow: 1px 1px 1px #c51e7a;
+      
+}
+
+
+/* <---- HEADER SECTION  ENDS ----->*/
+/*__________________________________*/
+
+
+
+/* <---- MAIN SECTION STYLES ----->*/
+.img-body-home{
+position: absolute;
+background-image: url(../../invitados/img/main_home_img.jpg);
+margin: 0;
+padding: 0;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+height: 120dvh;
+width: 100%
+}
+
+
+/* <---- NAV BODY  SECTION  ----->*/
+
+.nav-body{
+      display: flex;
+      top: 0;
+      flex-direction: column;
+      justify-content: center; 
+      align-content: center;
+      text-align: center;
+      font-family: "DynaPuff", system-ui;
+      width: 100%;
+      padding: 0px 0;         
+}
+
+
+
+.nav-item-body{
+text-align: center;
+width: 100%;
+padding: 8px;
+border-bottom: 1px solid rgba(35, 31, 32, 45%);
+background-color: #e69ff8f1;
+list-style: none;      
+}
+
+.nav-item-body:hover{
+    padding: 10px;
+    background-color: #f0f0f0;
+      
+}
+
+.nav-item-body a{
+   color: #000000;
+   font-size: clamp(0.8rem, 2.2vw, 2rem);
+   font-weight: lighter;   
+
+}
+
+/* <---- NAV BODY SECTION  ENDS ----->*/
+/*__________________________________*/
+
+
+
+/* <---- CARD SECTION  ----->*/
+.card{
+position: absolute;
+display: flex;
+flex-direction: column;
+justify-content:space-around;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+margin: auto;
+margin-top: 25%;
+
+padding: 2px 2px;
+width:60%;
+height: 100%;
+max-height:max-content;
+background-color:#ed7efc96;
+border-radius: 20px;
+overflow: hidden;
+box-shadow: -1px 1px 1px rgb(124, 82, 117);
+font-family: "DynaPuff", system-ui;
+     
+      
+  }
+  
+  .card__back{
+      display: flex;
+      flex-direction: column;
+      justify-content:stretch;
+      align-self: center;
+      position: absolute;
+      top: 0;
+      width: 100%;
+     height: 100%;
+      min-height:max-content;
+      padding: 12px;
+      transform: perspective(900px)rotateY(180deg);
+      border-radius: 20px;
+      border: 1px dotted white;
+      padding: 8px 8px;
+      
+  }
+  
+  .card__back span{
+      text-align: center;
+      align-self: center;
+     font-size: smaller;
+      margin: 6px 0 6px 0;
+    
+      
+  }
+  .card__back p{
+      align-self: center;
+      text-align: justify;
+      text-wrap: wrap wrap;
+      margin: 6px 6px;
+      margin-top: 8%;
+      white-space:pre;
+      white-space:normal;   
+     
+      font-size:11px;
+      text-align: center;
+  }
+  .card__back, .card__front{
+  backface-visibility: hidden;
+  transition: transform 3s;
+  background-color:#ae4afa;
+  color: white;
+  border-radius: 20px;
+  padding-bottom:6px ;
+  }
+  
+  .card:hover .card__front{
+      transform: perspective(300px)rotateY(180deg);
+  }
+  .card:hover .card__back{
+      transform: perspective(300px)rotateY(360deg);
+      background-color: rgb(253, 22, 138);
+      color:#ffffff;
+      margin: auto;
+  }
+  
+  .card__front{
+    
+      transform: perspective(200px)rotateY(0deg); 
+      margin: 1px;
+      padding: 2px;
+      background-color: #b05af1;
+      border-radius: 20px;
+  }
+  .card__front{
+     
+  height: fit-content;
+  background-color: #ff80d5;
+  }
+  .card__front img{
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size:  cover;
+      background-position:center ;
+      border-radius: 20px;
+      margin-bottom: 8%;
+      height:   32dvh;
+    
+  }
+
+  .card__front span{
+    display: flex;
+    justify-self: center;
+    font-size: 1.1rem;
+     color: rgb(125, 25, 192);
+     text-shadow: 1px 1px 1px #ffffff;
+     font-weight: 600;
+    
+  }
+  .card__front p{
+      display: flex;
+    
+      justify-self: center;
+      text-align: center;
+     font-size:0.8rem;
+   padding-top: 5%;
+     display: block;
+     color: rgb(255, 255, 255);
+      text-shadow: 1px 1px 1px #2e0325;
+   font-weight: lighter;
+    
+  }
+  .card__front h4{
+  text-align: center;
+  display: flex;
+  text-align: center;
+  justify-self: center;
+margin-top: 8%;
+  color: rgb(255, 51, 146);
+  text-shadow: 1px 1px 1px #000000;
+  font-weight:lighter;
+ font-size: 14px;
+background-color: #ffffffec;
+  padding: 8px 10px;
+
+  border-radius: 8px;
+  transition: background-color 1s, border-radius 0.8s, outline 0.8s,
+    outline-offset 0.8s;
+    outline: 1px solid rgba(136, 55, 122, 0.829);
+  outline-offset: 2; 
+
+  }
+  .card__front h4:hover {
+      background-color: rgba(255, 255, 255, 0.863);
+      color: rgb(255, 92, 201);
+      border-radius: 20px;
+      padding: 15px;
+      outline: 2px solid rgb(255, 255, 255);
+      outline-offset: -7px;
+    }
+    
+ 
+  
+  .icon-card{
+    display: flex;
+    justify-self: center;
+    font-size: 30px;
+    padding: 8px 0px 8px 0px;
+    color: #3f0257;
+  }
+
+ 
+  
+  /* <---- CARD SECTION  ENDS ----->*/
+/*__________________________________*/
+  
+/* <---- MAIN SECTION  ENDS ----->*/
+/*__________________________________*/
+
+
+
+
+/*----------> FOOTER  / <<<< HOME >>>>  <-----------*/
+
+.base__footer {
+ position: absolute;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 45%;
+  bottom: 0%;
+  font-family: 'Verdana';
+  background-color: rgba(63, 9, 85, 0.74);
+  justify-content: center;
+  align-content: center;
+  min-width: 100%;
+  width: 100%;
+  height: fit-content;
+  min-height: 10%;
+  padding: 10px 0px 30px 0px;
+      
+    }
+      
+      
+      
+.left__text__footer--base {
+  display: block;
+  align-self: center;
+  text-align: center;
+  letter-spacing: 0.1px;
+  word-spacing: 0px;
+  gap: 4px;
+   font-size:12px ;
+}
+.left__text__footer--base span{
+padding: 2px 0px;
+  color: rgb(255, 187, 227);
+
+  
+}
+.left__text__footer--base:hover span{
+  color: rgba(255, 255, 255, 0.952);
+}
+
+.right_text__footer--base {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 5px;
+   font-size:13px ;
+  align-self: center;
+  padding: 5px 0px;
+  color: rgba(136, 255, 235, 0.959);
+  margin-bottom: 1%;
+}
+.right_text__footer--base a {
+
+      color: rgba(136, 255, 235, 0.959);
+      margin-bottom: 2%;
+    }
+.right_text__footer--base a:hover {
+
+  color: rgba(5, 255, 193, 0.959);
+}
+
+    /*----------> FOOTER HOME / <<<  ENDS >>>  <-----------*/
+   /*________________________________________________*/
+
+  
+
+
+
+/* <---- CHECKBOX SECTION STYLES ----->*/
+
+.header__checkbox{
+      display: none;     
+}
+
+.nav-item a:not(:is(:hover,:active)){
+      text-decoration: none;
+}
+
+.top_frame:has(input[type="checkbox"]:checked).top_frame img{
+      display: none;
+      }
+
+
+
+.top_frame:has(input[type="checkbox"]:checked).top_frame{
+
+display: flex;
+background: linear-gradient(rgb(168, 58, 211), rgb(248, 3, 154));
+height:120dvh;
+font-family: "DynaPuff", system-ui;
+width: 100%;
+
+}
+
+.top_frame:has(input[type="checkbox"]:not(:checked)).top_frame .nav{
+      display: none;
+}
+.top_frame:has(input[type="checkbox"]:not(:checked)).top_frame .nav-body{
+  display: none;
+}
+
+
+.top_frame:has(input[type="checkbox"]:checked).top_frame .nav{
+     
+       
+         flex-direction: column;
+         justify-self: center;
+          width: max-content;
+          margin-bottom: 30%;
+          font-size: 30px;
+        
+      }
+
+
+
+
+.header__checkbox:checked~ .open_menu_button{
+      color: rgb(0, 0, 0);
+      text-shadow: -1px 1px 2px #ffffff;
+      top: 20px;
+      align-self: flex-start;
+      font-weight: lighter;
+
+}
+
+
+.top_frame .header__checkbox{
+      display: none;
+   
+}
+
+ .top_frame:has(input[type="checkbox"]:not(:checked)).top_frame .logo-top_frame
+{
+      display:none;  
+          
+}
+
+
+.top_frame:has(input[type="checkbox"]:checked).top_frame .logo-top_frame
+{
+  display: flex;
+  margin-right: -4%;
+  margin-top: 1%;
+  width: 107px;       
+}
+
+
+
+.top_frame:has(input[type="checkbox"]:checked)h4
+
+{
+  
+     
+     color: rgba(136, 255, 235, 0.959);
+}
+
+/* <---- CHECKBOX SECTION STYLES ENDS ----->*/
+/*__________________________________*/
+
+
+
+
+
+   
+
+                        /*----------> <<< QUERIES STYLES >>> <-----------*/
+                        /*______________________________________________/
+
+
+  
+/*----------> TOP FRAME <<< QUERIES >>> <-----------*/
+  
+@media screen and (min-width: 600px){
+  
+  
+      .top_frame
+      {
+        display: none;  
+      
+      } 
+        .open_menu_button
+      {
+        display: none;
+       }                 
+}
+
+ /*----------> HEADER  <<< QUERIES >>> <-----------*/
+  
+ @media screen and (min-width: 600px){
+.header{
+  height: 220dvh;
+}
+.header__title{
+  margin-top:8%;  
+}
+ .header__title__place{
+   
+   margin-right: 2%;
+     
+}
+ .header__title__countdown{
+      
+    margin-left: 3%;
+    margin-bottom: 13%;   
+}
+  .header__title h4, .header__title__place h4, .header__title__countdown h4{
+
+      font-size: clamp(1.3rem, 2.2vw, 1.4rem);       
+}
+
+
+    
+      
+      
+    } 
+
+    @media screen and (min-width: 992px){
+.header{
+  height: 220dvh;
+}
+.header__title{
+  margin-top:10.5%;  
+}
+ .header__title__place{
+   
+  margin-bottom: 5%;
+     
+}
+ .header__title__countdown{
+      
+    margin-left: 3%;
+    margin-bottom: 6%;   
+}
+  .header__title h4, .header__title__place h4, .header__title__countdown h4{
+
+      font-size: clamp(1.3rem, 2.2vw, 1.7rem);       
+}
+
+    }
+   /* <---- HEADER  <<< QUERIES /ENDS >>> ----->*/
+  /*________________________________________________________*/
+   
+      
+      
+   
+  
+/* <---- NAV BODY  SECTION <<< QUERIES >>>   ----->*/
+  
+    @media screen and (min-width: 600px){ 
+      
+
+.nav-body{
+position: relative;
+display: flex;
+justify-self: flex-end;
+align-self: center;
+flex-direction: row;
+bottom: 0;
+margin-top: 0%;
+background:#c57aff50;
+    
+}
+.nav-list-body{
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 6px 10px;
+  border-radius: 10px; 
+  margin-bottom: 1%;   
+}
+
+.nav-item-body{
+  background: transparent;
+  width: 30%;
+  padding: 4px 6px ;
+  border-bottom:1px solid #e63194;
+
+  transition: background-color 1s, border-radius 0.8s, outline 0.8s,
+  outline-offset 0.1s;
+  outline: 0;
+  outline-offset: 0;
+  list-style: none; 
+
+            
+      }
+
+      .nav-item-body:hover{
+        background-color: #fdf7ff;
+        border-radius: 23px;
+        padding:6px 20px;
+        outline: 1px solid rgb(201, 86, 255);
+       outline-offset: -4px;
+       color: #ffffff;
+       text-decoration: none; 
+      }
+
+      .nav-item-body a{
+        color: #e63194;
+        text-shadow: -1px 1px 1px black;
+        font-size:22px;
+        font-weight:bold; 
+        text-decoration: none; 
+
+      }
+      
+
+    }
+
+   
+    
+     @media screen and (min-width: 992px){
+.nav-list-body{
+  justify-content: center;
+   width: 50%;
+
+}
+ }
+
+/* <---- NAV BODY SECTION <<< QUERIES /ENDS >>> ----->*/
+  /*________________________________________________________*/
+  
+
+
+/* <---- CARD  SECTION <<< QUERIES >>>   ----->*/
+
+ 
+@media screen and (min-width:559px) and (max-width:991px){   
+ 
+       .card {
+         margin-top: 15%;
+          width: 40%;
+         }
+
+  .card__back span{
+    
+     font-size: medium;
+      margin: 10px 5px 10px 5px;  
+  }
+  .card__back p{
+     
+      margin: 6px 6px;
+      margin-top: 8%;
+      font-size:13px;
+      
+  }
+  
+
+  .card__front img{
+      width: 98%;
+      height:   32dvh; 
+      margin: auto;
+      justify-self: center;
+      margin-left: 1%;
+      margin-top: 1%;
+  }
+
+  .card__front span{
+    font-size: 1.5rem; 
+    margin-top: 5%;
+  }
+
+  .card__front p{ 
+     font-size:1rem;
+  }
+
+  .card__front h4{
+
+ font-size: 16px
+  }
+  
+  .icon-card{
+    font-size: 35px;
+    padding: 8px 0px 8px 0px;
+  }
+ }
+   
+@media screen and (min-width: 992px){
+
+  .card{
+      margin-top: 8%;
+      width:18%;    
+  }
+  
+  .card__back span{
+      text-align: center;
+      align-self: center;
+     font-size: medium;
+    margin: 15px 8px 6px 8px;
+      
+    
+      
+  }
+  .card__back p{
+      
+      margin: 6px 8px;
+      margin-top: 12%;
+      font-size: smaller;
+      font-weight: lighter;
+    
+  }
+  .card__front img{
+      width: 100%;
+      height:   38dvh; 
+  }
+
+  .card__front span{
+    font-size: 1.3rem; 
+  }
+
+  .card__front p{ 
+     font-size:0.9rem;
+  }
+
+  .card__front h4{
+ font-size: 16px
+  }
+}
+  
+ 
+     
+  /* <---- CARD <<< QUERIES /ENDS >>> ----->*/
+  /*________________________________________________________*/
+  
+
+
+/* <---- FOOTERT  SECTION <<< QUERIES >>>   ----->*/
+    
+@media screen and (min-width: 992px){ 
+    
+.base__footer {
+ 
+  width: 100%;
+  height: fit-content;
+  min-height: 10%;
+  padding: 10px 0px 10px 0px;
+ 
+     
+         
+    }
+      
+      
+      
+.left__text__footer--base {
+font-size: 0.7rem;
+}
+.left__text__footer--base span{
+padding: 0px 0px 2px 0px;
+  color: rgb(255, 187, 227);
+
+  
+}
+
+.right_text__footer--base {
+
+  padding: 5px 0px;
+  
+  margin-bottom: 0%;
+}
+.right_text__footer--base a {
+
+      color: rgba(136, 255, 235, 0.959);
+      margin-bottom: 2%;
+    }
+
+      }
+    
+
+                 /*----------> FOOTER /<<<< QUERIES / ENDS >>>> <-----------*/
+                 /*________________________________________________*/ 
+      
+    
+
+
+
+
+
+
+
+
+
+
+

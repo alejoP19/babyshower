@@ -1,0 +1,214 @@
+body{
+    position:relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    max-height: fit-content;
+}
+body,div{
+    box-sizing: border-box;
+}
+
+.registry_img{
+    position: absolute;
+    background-image: url(../../invitados/img/registry_img.avif);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%
+    }
+    
+ 
+.providers{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.377);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.377);
+    margin-bottom: 8%;
+    background-color: rgba(255, 198, 222, 0.93);
+    box-shadow: -1px 0px  3px rgb(158, 114, 184);
+    border-radius: 5px;
+    width: 80%;
+    margin-top: 10%;
+    padding: 15px;
+    gap: 12px;
+  
+}
+
+.providers :first-child
+{
+  justify-self: center;
+  align-self: center;
+  color: rgb(255, 255, 255);
+  text-shadow: -2px 2px 1px #270442;
+  font-weight: bold; 
+  font-family: 'Verdana';
+  font-size: medium;
+ 
+
+}
+.providers-item, .providers-item2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: max-content;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px  3px rgb(255, 147, 219);
+   
+    border-radius: 4px;
+    color: aliceblue;
+    padding: 5px 5px ;
+    
+}
+
+
+.providers-item:hover, .providers-item2:hover{
+  opacity: 1;
+    box-shadow: 0px 0px  3px rgb(163, 163, 163);
+}
+
+
+.providers-item img, .providers-item2 img{
+   
+    width: 100%;
+    padding: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  
+}
+
+
+
+
+
+/*---------->  <<<SHOP BOTON >>> <-----------*/
+
+.shop_button, .shop_button2{
+    position: absolute;
+    align-self: center;
+    bottom: 0;
+    margin-bottom: 12%;
+    border:0.5px solid black ;
+   
+    justify-self: flex-end;
+    background-color: #ffffff;
+    color: rgba(0, 0, 0, 0.888);
+    text-shadow: -1px 1px 1px #ffffff;
+    font-weight:600;
+    text-decoration: none;
+    padding: 5px ;
+    align-items: center;
+    border-radius: 15px;
+    outline: 0;
+    font-size: 13px;
+    text-align: center;
+    width: 70%;
+    transition: background-color 1s, border-radius 0.8s, outline 0.7s,
+    outline-offset 0.5s;
+  }
+  .shop_button:hover ,.shop_button2:hover {
+    background-color: rgba(255, 184, 240, 0.904);
+    outline: 1px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-shadow: -1px 1px 1px #ffffff;
+    border-radius: 25px;
+    box-shadow: 0px 0px  10px rgb(255, 188, 219);
+    font-weight: 600;
+    padding: 2px;
+  } 
+
+  .shop_button2 {
+    margin-bottom: 2%;
+   
+  
+  }
+  
+   /*----------> SHOP BOTON / <<<  ENDS >>>  <-----------*/
+   /*________________________________________________*/
+  
+
+
+                /*----------> <<< QUERIES REGISTRY STYLES >>> <-----------*/
+                /*______________________________________________/
+
+
+
+ /* <---- GRID  SECTION <<< QUERIES >>>   ----->*/
+   
+ @media screen and (min-width: 600px){ 
+
+    .providers{
+      
+        width: 50%;
+        flex-basis: 45%;
+        margin-top: 8%; 
+    }
+    .providers :first-child{
+  
+  font-size: large;
+}
+
+  }
+    
+   @media screen and (min-width: 992px){
+  .providers{
+        display: grid;
+        grid-template-columns: repeat(2,200px);
+        grid-template-rows: 80px  180px ; 
+        width: fit-content;
+        margin-top: 7%; 
+    }
+
+     .providers :first-child{
+       grid-column-start: 1;
+       grid-column-end: span 2;
+       grid-row-start: 1;
+      grid-row-end: span 1;
+      font-size: larger;    
+    }
+    .providers:nth-child(2){
+      grid-column-start: 1;
+      grid-column-end: span 2;
+      grid-row-start: 2;
+      grid-row-end: span 1
+    }; 
+}  
+
+
+    /*----------> SHOP BOTON / <<< QUERIES  >>>  <-----------*/
+   @media screen and (min-width: 992px) {
+
+     .shop_button{ 
+    margin-bottom: 7%;
+   
+
+  }
+
+  .shop_button2 {
+    margin-bottom: 10%;
+   
+  
+  }
+}
+   /*----------> SHOP BOTON / <<< QUERIES ENDS >>>  <-----------*/
+   /*________________________________________________*/
+  
+
+
+
+
+
+     
+   /*_________________________________________________________*/ 
+ /*----------> <<<< QUERIES / ENDS >>>>  <-----------*/
+ /*--------------------------------------------------*/

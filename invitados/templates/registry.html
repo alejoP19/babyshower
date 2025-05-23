@@ -1,0 +1,31 @@
+{% extends "paginas/base.html" %}
+{% load static %}
+
+
+
+{% block titulo_pagina %}
+
+<h3 class="titulo_registry">Registry</h3>
+
+{% endblock %}          
+
+{% block content %}
+
+  <body class="registry_img">
+
+  <div class="providers">
+      <h2>Giff Providers</h2>
+            <div class="providers-item">
+              <img src="{% static 'invitados/img/babyregistry.png' %}"> 
+                 <a  type="button" class="shop_button" href="https://www.amazon.com/baby-reg/babydurrcolbyvalentina--july-2025-stonewall/1UDVL5L1KAFSI" target="_blank">Shop Registry</a>
+            </div>
+            
+            <div class="providers-item2">
+              <img src="{% static 'invitados/img/provider3.jpeg' %}"> 
+              <a  type="button" class="shop_button2" href="https://www.walmart.com/registry/br/9d63d01c-118b-49fe-9157-c3d3722b4feb" target="_blank">Shop Registry</a>
+            </div>    
+      </div>
+
+  </body>
+
+{% endblock %}

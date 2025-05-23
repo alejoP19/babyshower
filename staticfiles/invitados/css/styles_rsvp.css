@@ -1,0 +1,203 @@
+
+body,div{
+      box-sizing: border-box;
+  }
+  
+.rsvp__img{
+      position: absolute;
+      background-image: url(../../invitados/img/rsvp_img.avif);
+      margin: 0;
+      padding: 0;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      height: 100%;
+      width: 100%
+      }
+      
+      .rsvp__invitation{
+           
+            display: flex;
+            justify-self: center;
+            margin-top: -6%;
+            padding: 0;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 50dvh;
+            width: 80dvw;
+            }
+
+h2{
+      text-align: center;
+      margin: 0;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      font-weight: 300;
+      color: #161616;
+      text-shadow: 1px 1px 2px white;
+      font-weight: bold;
+      font-size: 1.3em;
+      padding: 10px;
+}
+form{
+   
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+margin: auto;
+display: flex;
+flex-direction: column;
+justify-self: center;
+background-color:#e4b0e9f1;
+padding: 30px ;
+width: 350px;
+border-radius: 8px;
+box-shadow: -1px 1px 5px rgba(43, 4, 51, 0.6);
+margin-top: 0%;
+font-size: 16px;
+margin-bottom: 15%;
+      
+}
+
+/* .form_input{
+      padding:10px  20px;
+      font-weight: 400;
+      font-size: 18px;
+} */
+input{
+      width: 100%;
+      box-sizing: border-box;
+      padding: 6px 20px;
+      border: none;
+      border: 1px solid #777777;
+      background-color: #5f29562f ;
+      box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.788);
+      border-radius: 4px;
+      color: rgb(0, 0, 0);
+      margin: 6px 0;
+}
+input::placeholder {
+      font-weight: bold;
+      font-size:small ;
+      opacity: 0.5;
+      color: rgb(27, 27, 27);
+    }
+
+
+
+fieldset{
+      padding: 20 20px;
+      margin: 20px 0;
+      border: 1px solid #ddd5;
+      color: rgb(255, 255, 255);
+      border-radius: 5px;
+  
+}
+
+legend{
+      color: rgb(8, 8, 8);
+      padding: 5px 20px;
+      border: 1px solid rgba(75, 13, 70, 0.719);
+      background-color:rgba(255, 132, 204, 0.945);
+      border-radius: 6px;
+      text-align: center;
+      font-size: medium;
+      font-weight: bold;
+}
+
+/*---------->  <<< BOTON >>> <-----------*/
+
+.confirm_button {
+      background-color: #26e2aa;
+      color: rgba(255, 255, 255, 0.888);
+    
+      text-shadow: -1px 1px 1px #000000;
+      font-weight:600;
+      text-decoration: none;
+      padding: 5px 0px;
+      border-radius: 8px;
+      outline: 0;
+      font-size: 14px;
+      text-align: center;
+      margin: auto;
+      width: 45%;
+      transition: background-color 1s, border-radius 0.8s, outline 0.7s,
+      outline-offset 0.5s;
+    }
+    .confirm_button:hover {
+      background-color: rgba(255, 184, 240, 0.904);
+      outline: 1px solid rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+      text-shadow: -1px 1px 1px #ffffff;
+      border-radius: 25px;
+      box-shadow: 0px 0px  20px rgb(221, 134, 255);
+      font-weight: 600;
+      padding: 4px 4px;
+    } 
+    
+     /*----------> BOTON / <<<  ENDS >>>  <-----------*/
+     /*________________________________________________*/
+    
+
+
+           /*----------> <<< QUERIES RSVP STYLES >>> <-----------*/
+          /*______________________________________________/
+
+
+/*----------> HEADER <<< QUERIES >>> <-----------*/
+
+
+@media screen and (min-width: 600px) {
+
+      .rsvp__invitation{
+         
+          
+            margin-top: 5%;
+            height: 50dvh;
+            width: 50dvw;
+            }
+
+            form{
+                  margin-top: -3% ;
+                  margin-bottom: 8%;
+                  width: 450px;
+                  font-size: 18px;
+            }
+
+ }
+
+@media screen and (min-width: 992px) {
+  .rsvp__invitation{
+           
+          
+            margin-top: 2%;
+           
+            }
+
+      }
+        form{
+                  margin-top: 3% ;
+                  margin-bottom: 8%;
+                  width: 450px;
+                  font-size: 18px;
+            }
+   /*----------> HEADER <<< QUERIES / ENDS >>> <-----------*/
+     
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+ /*----------> <<<< QUERIES / ENDS >>>>  <-----------*/
+ /*--------------------------------------------------*/
