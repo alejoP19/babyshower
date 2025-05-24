@@ -29,9 +29,9 @@ SECRET_KEY = 'django-insecure-_n$n9a6s=t-voo@vi4^yic#lq^=5damr6fcwp(ovfnmr1$jb@j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-# ALLOWED_HOSTS = ['31.97.41.76','127.0.0.1','alejoideas.com','www.alejoideas.com']
+ALLOWED_HOSTS = ['31.97.41.76','127.0.0.1','alejoideas.com','www.alejoideas.com']
 
-ALLOWED_HOSTS = ['31.97.41.76','alejoideas.com','www.alejoideas.com']
+# ALLOWED_HOSTS = ['31.97.41.76','alejoideas.com','www.alejoideas.com']
 
 
 # Application definition
@@ -83,12 +83,12 @@ WSGI_APPLICATION = 'babyShowerTina.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME':'invitados',
-        'USER': 'cheve',
-        'PASSWORD': 'gorditos',
+        'USER': 'root',
+        'PASSWORD': '',
         'HOST': 'localhost',
-        'PORT': '5432',
+        'PORT': '3307',
         
     }
 } 
