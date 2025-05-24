@@ -82,9 +82,9 @@ WSGI_APPLICATION = 'babyShowerTina.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME':'isabelle',
-        'USER': 'cheve',
-        'PASSWORD': '192701',
+        'NAME':'isabellebabyshower',
+        'USER': 'toron',
+        'PASSWORD': 'gorditos01',
         'HOST': 'localhost',
         'PORT': '5432',
         
