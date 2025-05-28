@@ -13,7 +13,7 @@ body,div{
       background-position: center center;
       background-attachment: fixed;
       height: 100%;
-      width: 100%
+      width: 100%;
       }
       
       .rsvp__invitation{
@@ -40,7 +40,8 @@ h2{
       font-size: 1.3em;
       padding: 10px;
 }
-form{
+
+.rsvp{
    
 top: 0;
 bottom: 0;
@@ -52,7 +53,7 @@ flex-direction: column;
 justify-self: center;
 background-color:#e4b0e9f1;
 padding: 30px ;
-width: 350px;
+width: 90%;
 border-radius: 8px;
 box-shadow: -1px 1px 5px rgba(43, 4, 51, 0.6);
 margin-top: 0%;
@@ -159,10 +160,10 @@ legend{
             width: 50dvw;
             }
 
-            form{
+            .rsvp{
                   margin-top: -3% ;
                   margin-bottom: 8%;
-                  width: 450px;
+                  width: 80%;
                   font-size: 18px;
             }
 
@@ -176,13 +177,14 @@ legend{
            
             }
 
-      }
-        form{
+      
+        .rsvp{
                   margin-top: 3% ;
                   margin-bottom: 8%;
-                  width: 450px;
+                  width: 30%;
                   font-size: 18px;
             }
+      }
    /*----------> HEADER <<< QUERIES / ENDS >>> <-----------*/
      
    

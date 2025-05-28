@@ -14,7 +14,7 @@
 <body class="rsvp__img">
     <img class="rsvp__invitation" src="{% static 'invitados/img/anuncio2.png' %}" alt="">
    <!-- <form action="/assistance/" id="datos" method="post"></form> -->
-    <form id="datos" method="post">
+    <form id="datos" method="post" class="rsvp">
         {% csrf_token %}
         {{ form }}
           <h2>
@@ -26,13 +26,12 @@
           </fieldset>
 
           
-<fieldset>
-    <legend>Number of Occupants</legend>
-    <input type="number" placeholder="Enter a quantity" name="quantity" id="quantity_guest">
-</fieldset>
+        <fieldset>
+            <legend>Number of Occupants</legend>
+            <input type="number" placeholder="Enter a quantity" name="quantity" id="quantity_guest">
+        </fieldset>
 
-<input  type="submit"  class="confirm_button" value="Confirm">
-    </input>
+          <input  type="submit"  class="confirm_button" value="Confirm"></input>
     </form>
 
 </body>
