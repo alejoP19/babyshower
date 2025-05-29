@@ -14,8 +14,8 @@
 <body class="rsvp__img">
     <img class="rsvp__invitation" src="{% static 'invitados/img/anuncio2.png' %}" alt="">
    <!-- <form action="/assistance/" id="datos" method="post"></form> -->
-    <form id="datos" method="post" class="rsvp">
-        {% csrf_token %}
+    <form id="datos" method="post" class="rsvp"> {% csrf_token %}
+       
         {{ form }}
           <h2>
             Assistance Form</h2>
