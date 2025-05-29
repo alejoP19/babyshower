@@ -128,7 +128,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
 
-LANGUAGE_CODE = 'es-co'
+LANGUAGE_CODE = 'es-eu'
 
 
 
@@ -170,6 +170,6 @@ MESSAGE_TAGS ={
 } 
 
 
-SECURE_SSL_REDIRECT: True
-SESSION_COOKIE_SECURE: True
-CSRF_COOKIE_SECURE: True
+# SECURE_SSL_REDIRECT: True
+# SESSION_COOKIE_SECURE: True
+# CSRF_COOKIE_SECURE: True
