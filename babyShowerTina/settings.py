@@ -33,7 +33,7 @@ DEBUG =  False
 
 # ALLOWED_HOSTS = ['31.97.41.76','alejoideas.com','www.alejoideas.com','isabellesbabyshower.alejoideas.com','localhost', '127.0.0.1']
 ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS=['https://www.alejoideas.com']
+# CSRF_TRUSTED_ORIGINS=['https://www.alejoideas.com']
 
 # Application definition
 
@@ -170,6 +170,6 @@ MESSAGE_TAGS ={
 } 
 
 
-SECURE_SSL_REDIRECT: True
-SESSION_COOKIE_SECURE: True
-CSRF_COOKIE_SECURE: True
+# SECURE_SSL_REDIRECT: True
+# SESSION_COOKIE_SECURE: True
+# CSRF_COOKIE_SECURE: True
