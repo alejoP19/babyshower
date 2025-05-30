@@ -92,7 +92,7 @@ outline: 2px solid rgb(255, 169, 244);
 
  /* <---- GALERY <<< QUERIES >>>   ----->*/
    
-@media screen and (min-width: 600px){ 
+ @media screen and (min-width: 600px){ 
     .galery{
    
        
@@ -190,7 +190,8 @@ outline: 2px solid rgb(255, 169, 244);
 
  
 
- @media screen and (min-width: 992px){ 
+  
+@media screen and (min-width: 992px){ 
     .galery{
    
        
@@ -286,12 +287,6 @@ outline: 2px solid rgb(255, 169, 244);
  
  }
  
-
- 
-
-
-  
-
 
  
 

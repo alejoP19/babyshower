@@ -13,7 +13,7 @@ body,div{
       background-position: center center;
       background-attachment: fixed;
       height: 100%;
-      width: 100%
+      width: 100%;
       }
       
       .rsvp__invitation{
@@ -61,6 +61,7 @@ font-size: 16px;
 margin-bottom: 15%;
       
 }
+
 /* .form_input{
       padding:10px  20px;
       font-weight: 400;
@@ -148,6 +149,7 @@ legend{
 
 /*----------> HEADER <<< QUERIES >>> <-----------*/
 
+
 @media screen and (min-width: 600px) {
 
       .rsvp__invitation{
@@ -183,7 +185,6 @@ legend{
                   font-size: 18px;
             }
       }
-
    /*----------> HEADER <<< QUERIES / ENDS >>> <-----------*/
      
    
