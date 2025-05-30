@@ -228,7 +228,8 @@ width: 100%;
 padding: 8px;
 border-bottom: 1px solid rgba(35, 31, 32, 45%);
 background:#b453ff96;
-list-style: none;      
+list-style: none;  
+ 
 }
 
 .nav-item-body:hover{
@@ -240,8 +241,14 @@ list-style: none;
 .nav-item-body a{
    color: #000000;
    font-size: clamp(0.8rem, 2.2vw, 2rem);
-   font-weight: lighter;   
+   font-weight: lighter;
+   text-decoration: none;  
+  
 
+}
+
+.nav-item-body:hover a{
+ text-decoration: underline; 
 }
 
 /* <---- NAV BODY SECTION  ENDS ----->*/
@@ -762,7 +769,7 @@ text-decoration: none;
    
     
      @media screen and (min-width: 992px){
-.nav-list-body{
+   .nav-list-body{
   justify-content: center;
    width: 50%;
    margin-top: 5px;

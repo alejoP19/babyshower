@@ -93,8 +93,8 @@ body{
       align-content: center;
       text-align: center;
       font-family: "DynaPuff", system-ui;
-       width: 100%;
-     padding: 20px 0;
+      width: 100%;
+      padding: 20px 0;
 
                  
 }
@@ -125,7 +125,7 @@ display: flex;
 flex-direction: column;
 justify-content: space-around;
 border-bottom: 1px solid #e4a6ca94;
-background-image: url(../../invitados/img/portada2.jpg);
+background-image: url(../../invitados/img/foto_home.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center center; 
@@ -239,8 +239,12 @@ list-style: none;
 .nav-item-body a{
    color: #000000;
    font-size: clamp(0.8rem, 2.2vw, 2rem);
-   font-weight: lighter;   
+   font-weight: lighter;
+    text-decoration: none;   
 
+}
+.nav-item-body:hover a{
+ text-decoration: underline; 
 }
 
 /* <---- NAV BODY SECTION  ENDS ----->*/
